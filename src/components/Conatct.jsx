@@ -14,7 +14,7 @@ const Conatct = () => {
           />
         </div>
         <div className="form gap-1 grid grid-cols-2 ">
-          <h1 className="col-span-2 regular-40 text-white">Get In Touch</h1>
+          <h1 className="col-span-2 regular-40 text-white">اشترك معنا</h1>
           <input
             className="border-2 border-main-4  px-5 py-2 rounded-3xl bg-transparent text-main-3 focus:bg-main-4 transition-all text-[18px]"
             type="text"

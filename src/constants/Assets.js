@@ -21,6 +21,7 @@ import Projet17 from '../public/Project17.jpg'
 import Projet18 from '../public/Project18.jpg'
 import User1 from '../public/user1.jpg'
 import User from '../public/user.svg'
+import Mok1 from '../public/mok1.pdf'
 
 
 export const Assets = {
@@ -60,3 +61,4 @@ export const SUBMIT = [
   { src: Logo, href: "https://t.me/+yvW1IC1CwyxmOTZi" },
   { src: CLogo, href: "https://t.me/" },
 ];
+export const MOLAKAS = [{ src:Mok1},];

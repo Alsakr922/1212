@@ -1,34 +1,34 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: "#home", key: "home", label: "Home" },
-  { href: "#members", key: "members", label: "Our Members" },
-  { href: "#projects", key: "projects", label: "Our Projects" },
-  { href: "#contact", key: "contact", label: "Contact Us" },
+  { href: "#home", key: "home", label: "الصفحة الرئيسية" },
+  { href: "#members", key: "members", label: "الأعضاء" },
+  { href: "#projects", key: "projects", label: "المشاريع" },
+  { href: "#contact", key: "contact", label: "تواصل معنا" },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: "Learn More",
+    title: "اعرف اكثر",
     links: [
       {
-        title: "About Us",
+        title: "من نحن",
         href: "#home",
       },
       {
-        title: "Members",
+        title: "الأعضاء",
         href: "#members",
       },
       {
-        title: "Projects",
+        title: "المشاريع",
         href: "#projects",
       },
       {
-        title: "Privacy Policy",
+        title: "حقوق الملكية",
         href: "/",
       },
       {
-        title: "Contact Us",
+        title: "تواصل معنا",
         href: "#contact",
       },
     ],
@@ -36,15 +36,15 @@ export const FOOTER_LINKS = [
 ];
 
 export const FOOTER_CONTACT_INFO = {
-  title: "Contact Me",
+  title: "تواصل معنا",
   links: [
     { label: "E-mail", value: "mo7amedk7aled922@gmail.com" },
-    { label: "Phone", value: "01064764121" },
+    { label: "الهاتف", value: "+ 20....." },
   ],
 };
 
 export const SOCIALS = {
-  title: "Social",
+  title: "مواقع التواصل",
   links: ["/facebook.svg", "/instagram.svg", "/twitter.svg", "/linkedin.svg"],
 };
 export const MEMBERS = [

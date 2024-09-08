@@ -16,13 +16,15 @@ const Hero = () => {
           <Button
             classes="md:m-auto sm:m-auto lg:m-0"
             type="button"
-            title="Welcome In Our Portofolio"
+            title="السلام عليكم ورحمة الله وبركاته"
             theme="btn_hero "
           />
           <div className="py-5 regular-64 text-main-3 capitalize">
-            <span className="regular-64 capitalize">
-              Hi! We Are{" "}
-              <span className=" text-transparent stroke">Tofan Al Aqsa</span>
+            <span className="regular-64 capitalize me-5">
+              أهلا بكم نحن{" "}
+              <span className=" text-transparent stroke ml-1">
+                فريق طوفان الأقصي
+              </span>
             </span>
             <br />
             <span>
@@ -45,7 +47,7 @@ const Hero = () => {
             </span>
           </div>
           <Link to={"/"} className="text-main-2 py-10 block">
-            Lets Connect{" "}
+            تواصل معنا
             <div className="left_right inline-block">
               <ArrowForwardIos />
             </div>

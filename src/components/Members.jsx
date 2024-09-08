@@ -38,9 +38,9 @@ const Members = () => {
   return (
     <div className="members py-5 bg-main-2" id="members">
       <div className="w-3/4 m-auto text-center text-main-1">
-        <h1 className="regular-60">Members</h1>
+        <h1 className="regular-60">اعضاء الطوفان</h1>
         <p className="regular-32 text-main-1 pb-10">
-          You can See Our Members Here
+          اطلع علي اعضاء فريقنا
         </p>
         <Slider {...settings}>
           {MEMBERS.map((member) => {
