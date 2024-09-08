@@ -19,8 +19,6 @@ import Projet15 from '../public/Project15.jpg'
 import Projet16 from '../public/Project16.jpg'
 import Projet17 from '../public/Project17.jpg'
 import Projet18 from '../public/Project18.jpg'
-import Projet19 from '../public/Project19.jpg'
-import Projet20 from '../public/Project20.jpg'
 import User1 from '../public/user1.jpg'
 import User from '../public/user.svg'
 
@@ -50,8 +48,6 @@ export const PROJECTS = [
   Projet16,
   Projet17,
   Projet18,
-  Projet19,
-  Projet20,
 ];
 export const VIDEOS = [
   { name: "vid1", src: "../public/vid1.mp4" },
