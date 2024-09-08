@@ -11,7 +11,7 @@ const Submit = () => {
       <br />
       <div className="grid items-center lg:grid-cols-2 md:grid-cols-1 ">
         {SUBMIT.map((m) => (
-          <Link to={m.href}>
+          <Link to={m.href} className=' self-center justify-self-center'>
             <img
               className="flexCenter self-center size-80 p-5 rounded-md "
               src={m.src}
