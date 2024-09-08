@@ -1,12 +1,11 @@
-import React from 'react'
-import Button from './Button'
-import {  ArrowForwardIos } from '@mui/icons-material'
-import { Link } from 'react-router-dom'
-import { TypeAnimation } from 'react-type-animation'
+import React from "react";
+import Button from "./Button";
+import { ArrowForwardIos } from "@mui/icons-material";
+import { Link } from "react-router-dom";
+import { TypeAnimation } from "react-type-animation";
 import { Assets } from "../constants/Assets";
 
 const Hero = () => {
-
   return (
     <main
       id="home"
@@ -45,10 +44,6 @@ const Hero = () => {
               />
             </span>
           </div>
-          <h6 className="text-[18px] pt-[30px] text-main-4">
-            Hell Everyone , I have A #Years Of Experiance in Web And alot Of
-            Skills
-          </h6>
           <Link to={"/"} className="text-main-2 py-10 block">
             Lets Connect{" "}
             <div className="left_right inline-block">
@@ -68,6 +63,6 @@ const Hero = () => {
       </div>
     </main>
   );
-}
+};
 
-export default Hero
+export default Hero;
