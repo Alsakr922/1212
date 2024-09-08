@@ -83,7 +83,12 @@ export const MEMBERS = [
   },
   { name: "محمد علي", age: 15, region: "مصر", program: "غراس" },
   { name: "خالد وليد", age: 13, region: "سوريا", program: "غراس" },
-  { name: "رضوان محمد", age: 17, region: "المغرب", program: "البناء المنهجي" },
+  {
+    name: "رضوان المغراوي",
+    age: 17,
+    region: "المغرب",
+    program: "البناء المنهجي",
+  },
   { name: "مروان ربيع", age: 16, region: "مصر", program: "البناء المنهجي" },
   { name: "ماجد عمر", age: 21, region: "اليمن", program: "البناء المنهجي" },
   { name: "يزن عمار", age: 13, region: "سوريا", program: "جذور" },

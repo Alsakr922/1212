@@ -9,7 +9,7 @@ const Submit = () => {
       className=" bg-main-3 py-[70px] lg:px-[100px] px-[20px]  "
     >
       <br />
-      <div className="flex justify-evenly">
+      <div className="grid lg:grid-cols-2 md:grid-cols-1 justify-evenly">
         {SUBMIT.map((m) => (
           <Link to={m.href}>
             <img
